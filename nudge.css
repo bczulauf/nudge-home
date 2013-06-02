@@ -1,0 +1,177 @@
+body {
+   padding: 0px;
+   margin: 0px;
+   background-color: #e9e8e3;
+   font-family: 'Titillium Web', sans-serif;
+   color: #2a2a2a;
+}
+
+.clear { /* Useful generic clearing class. */
+	clear: both;
+}
+
+.clearfix:after {
+   clear:both;
+   content:' ';
+   display:block;
+   font-size:0;
+   line-height:0;
+   visibility:hidden;
+   width:0;
+   height:0
+}
+
+h1 {
+   margin: 0;
+   font-size: 56px;
+   color: #222;
+   font-weight: 400;
+}
+
+h5 {
+   font-size: 24px;
+   font-weight: 400;
+   margin: 0 0 10px 0;
+   color: #FFF;
+}
+
+.logo {
+   background-image: url(logo.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 85px;
+   width: 85px;
+   margin-bottom: 40px;
+}
+
+.container {
+   width: 90%;
+   margin: 0 auto;
+}
+
+.start-input {
+   float: left;
+}
+
+input {
+   background-color: #FFF;
+   height: 160px;
+   width: 58%;
+   border: none;
+   padding: 0px;
+   color: #999;
+   font-size: 24px;
+   outline: none;
+   padding-left: 2%;
+   font-weight: 400;
+   font-family: 'Titillium Web', sans-serif;
+}
+
+.btn {
+   background-color: #CDCCC8;
+   display: inline-block;
+   border-radius: 4px;
+   padding: 20px 30px;
+   font-weight: 600;
+   padding-right: 150px;
+   background-image: url(small-arrow.png);
+   background-repeat: no-repeat;
+   background-position: 95% center;
+   margin-right: 10px;
+   cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #bab9b4;
+}
+		
+.btn:active {
+	background-color: #b3b2ad;
+}
+
+.start-btn {
+   width: 13%;
+   height: 160px;
+   float: left;
+   background-color: #1a86d6;
+   background-image: url(big-arrow.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-left: 2%;
+   cursor: pointer;
+}
+
+.start-btn:hover {
+  background-color: #1472ba;
+}
+		
+.start-btn:active {
+	background-color: #0f5a94;
+}
+
+.suffix {
+   float: left;
+   background-color: #CDCCC8;
+   height: 160px;
+   line-height: 160px;
+   font-size: 24px;
+   text-align: center;
+   font-weight: 400;
+   width: 25%;
+}
+
+.margin-5 {
+   margin-bottom: 5%;
+}
+
+.margin-10 {
+   margin-bottom: 10%;
+}
+
+.scroll {
+   border-bottom: 8px solid #CDCCC8;
+}
+
+.scroll:hover {
+   border-bottom: 8px solid #1a86d6;
+}
+
+.thanks {
+   float: right;
+}
+
+
+.about {
+   padding-right: 150px;
+   background-image: url(small-arrow.png);
+   background-repeat: no-repeat;
+   background-position: 95% center;
+   margin-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+.start-btn {
+   width: 100%;
+   margin-left: 0;
+   margin-top: 5%;
+}
+
+.suffix {
+   width: 40%;
+}
+}
+
+@media screen and (max-width: 450px) {
+input {
+   width: 95%;
+   padding-left: 5%;
+}
+
+.suffix {
+   display: none;
+}
+
+.slogan {
+   display: none;
+}
+}
